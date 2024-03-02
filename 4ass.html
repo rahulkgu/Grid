@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 50px;
+    }
+
+    img {
+        height: 100vh;
+        width: 90%;
+
+    }
+
+    .card3,
+    .card2 {
+        display: grid;
+        background-color: yellow;
+    }
+
+    .card1 {
+        display: grid;
+        grid-row: 30% 30% 30%;
+        padding: 0px 50px;
+    }
+
+    .card1 h2 {
+        line-height: 80px;
+    }
+
+    .card1 p {
+        padding-bottom: 100px;
+    }
+
+    button {
+        padding: 5px 15px;
+        background-color: rgb(18, 232, 78);
+        font-weight: 700;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        height: 40px;
+        
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 100px;
+        height: 80px;
+        align-items: center;
+
+    }
+
+    #logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    .nav {
+        display: grid;
+        grid-template-columns: 60px 60px 60px;
+        align-items: center;
+    }
+    #read
+    {
+        background-color: black;
+        padding: 5% 10%;
+    }
+    .photo img
+    {
+      
+       height: 400px;
+       width: 100%;
+    }
+
+    .rd {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-between;
+        padding-bottom: 5px;
+        height: 250px;
+       
+
+    }
+    .rd img
+    {
+        height: 150px;
+        width: 100%;
+        border-radius: 30px;
+    }
+    .rd1
+{
+    border: 1px solid black;
+    border-radius: 30px;
+   
+   
+}
+.rd2
+{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.rd3
+{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+</style>
+
+<body>
+    <header>
+        <img id="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXbHuNRYKQr9eAwT-gSgMbAzlPEGE56dIdFw&usqp=CAU"
+            alt="">
+        <div class="nav">
+            <p>Home</p>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+        <button>Login</button>
+    </header>
+    <section>
+        <div class="content">
+            <div class="card1" id="card">
+                <div class="cardd1"></div>
+                <div class="cardd2">
+                    <h2>Healthy Food</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio vel exercitationem quos laudantium
+                        tempore
+                        quae ex veniam, quas voluptatum sunt nemo ut eos alias, tempora quod? Qui pariatur sequi
+                        distinctio
+                        ratione eius ducimus esse adipisci velit. Veritatis rem ab error cumque dolor, eligendi
+                        repellendus
+                        fugit ipsam. Earum quod unde temporibus pariatur, consequuntur laudantium non voluptate natus
+                        adipisci
+                        exercitationem, officiis aspernatur velit deleniti qui ducimus nobis molestias eligendi sed
+                        sequi
+                        assumenda eveniet incidunt! In voluptas ducimus fugiat tempora earum dolor beatae?</p>
+                    <button id="read">Read More</button>
+                </div>
+                <div class="crad3">
+
+                </div>
+            </div>
+            <div class="card2" id="card">
+                <img src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="">
+            </div>
+            <div class="card3" id="card">
+
+            </div>
+        </div>
+    </section>
+
+    <div class="photo">
+        <img src="./10.jpg" alt="">
+    </div>
+    <div class="rd">
+        <div class="rd1">
+            <img src="./fd1.jpg" alt="">
+            <h3>Order Online</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, consectetur?</p>
+        </div>
+        <div class="rd2">
+            <img src="./fd2.jpg" alt="">
+            <h3>On site Dining</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="rd3">
+            <img src="./fd3.jpg" alt="">
+            <h3>Nightlife & Clube</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit deleniti perspiciatis!</p>
+        </div>
+    </div>
+  
+        
+    </body>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        background-color: black;
+    }
+    h1
+    {
+        color: aliceblue;
+    }
+    .content
+    {
+        display: grid;
+        grid-template-areas: 'cd1 cd2 cd3 cd4'
+        'cd5 cd6 cd7 cd8';
+        grid-gap: 10px;
+        justify-content: space-around;
+        border: 1px solid black;
+        background-color: black;
+      
+    }
+
+    .cd1
+    {
+        grid-area: cd1;
+        background-color: #7421c2;
+    }
+    .cd2
+    {
+        grid-area: cd2;
+        background-color: #d2691e;
+    }
+    .cd3
+    {
+        grid-area: cd3;
+        background-color: #767d7d98;
+    }
+    .cd4
+    {
+        grid-area: cd4;
+        background-color: #a71733;
+    }
+    .cd5
+    {
+        grid-area: cd5;
+        background-color: #aa7e65;
+        
+    }
+    .cd6
+    {
+        grid-area: cd6;
+        background-color: #00ffff;
+        
+    }
+    .cd7
+    {
+        grid-area: cd7;
+        background-color: #f0f8ff;
+        
+    }
+    .cd8
+    {
+        grid-area: cd8;
+        background-color: #4ce3b1;
+        
+    }
+    #card
+    {
+        display: grid;
+        height: 300px;
+        width:20dvw;
+        align-items: center;
+        
+    }
+    #card p
+    {
+        padding-left: 33%;
+    }
+</style>
+<body>
+    <h1>Feeling Fancy</h1>
+    <div class="content">
+     <div class="cd1" id="card">
+        <p>#7421c2</p>
+     </div>
+     <div class="cd2" id="card">
+<p>#d2691e</p>
+     </div>
+     <div class="cd3" id="card">
+<p>#767d7d98</p>
+     </div>
+     <div class="cd4" id="card">
+<p>#a71733</p>
+     </div>
+     <div class="cd5" id="card">
+<p>#aa7e65</p>
+     </div>
+     <div class="cd6" id="card">
+<p>#00ffff</p>
+     </div>
+     <div class="cd7" id="card">
+<p> #f0f8ff</p>
+     </div>
+     <div class="cd8" id="card">
+<p>#4ce3b1</p>
+     </div>
+    </div>
+</body>
+</html>
